@@ -20,10 +20,10 @@ In the subtree.
 import ast, time
 file1 = open('LiscioResult.txt', 'r')
 Lines = file1.readlines()
+set_of_orderings = set()
 # Finds Relative Orders of subtrees of Length 3 in Liscio's Data Set
-# Relative Orders are read in the smallest to largest 
+# Relative Orders are read in the smallest to largest
 for line in Lines:
-    count += 1
     textedlist = line.strip().split("], ")[0] +"]"
     li = ast.literal_eval(textedlist)
     # Chips that are in the tree of the left child of the root.
