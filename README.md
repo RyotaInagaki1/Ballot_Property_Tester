@@ -9,6 +9,6 @@ TestingBallotProperty.py verifies that each of the chip configurations listed by
 
 CheckRelativeOrderings.py finds all relative orderings of chips in the subtrees of 7 chips that show up in Liscio's stable configurations. Please see the Python file for how to read the output.
 
-To run thesee scripts, open your terminal, make your point working directory this repository, and then type ```Python [insert-filename]```.
+To run thesee scripts, open your terminal, make your point working directory this repository, and then type ```Python [insert-filename]``` and hit enter.
 
 
