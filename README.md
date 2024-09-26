@@ -1,4 +1,5 @@
-# Ballot_Property_Tester
+# Subtrees_and_Ballot_Property
+
 Supplements "On Chip Firing on Undirected Trees"
 
 We verify that each of the chip configurations listed by Patrick Liscio's data satisfies the ballot property, i.e. the ith smallest chip in the left subtree is less than the ith smallest chip in the right subtree.
