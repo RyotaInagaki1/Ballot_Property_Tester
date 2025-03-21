@@ -17,7 +17,7 @@ For instance relative ordering (1, 2, 3, 4, 5, 6, 7) stands for
   1       3      5         7
 In the subtree.
 """
-import ast, time
+import ast
 file1 = open('LiscioResult.txt', 'r')
 Lines = file1.readlines()
 set_of_orderings = set()
@@ -41,5 +41,4 @@ for line in Lines:
         relativeOrder.append(rightsorted.index(i)+1)
     set_of_orderings.add(tuple(relativeOrder))
     
-end =  time.time()
 print(set_of_orderings)
